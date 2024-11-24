@@ -40,9 +40,7 @@
             </ul>
         </li>
         <li><strong>Run the Script:</strong>
-            <pre>
-                <code>python detect_circles.py</code>
-            </pre>
+            <code>python detect_circles.py</code>
         </li>
         <li><strong>Choose an Image:</strong> 
             The script will list all images in the <code>Input</code> directory. Select an image by entering its corresponding number.
