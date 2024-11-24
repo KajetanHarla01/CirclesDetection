@@ -19,7 +19,7 @@ def get_image(dir):
     print("Choose file: ")
     counter = 1
     for f in files:
-        print(str(counter) + " - " + str(f))  # Display file options
+        print(str(counter) + " - " + str(f))
         counter += 1
     
     # Input the file number
@@ -130,13 +130,13 @@ def show_result(original, result, circle_count):
 
     # Display the original image on the first axis
     axes[0].imshow(cv2.cvtColor(original, cv2.COLOR_BGR2RGB))
-    axes[0].set_title("Oryginal image")  # Set the title for the original image
-    axes[0].axis("off")  # Turn off axis lines and labels
-
+    axes[0].set_title("Oryginal image")
+    axes[0].axis("off")
+    
     # Display the result image (with detected circles) on the second axis
     axes[1].imshow(cv2.cvtColor(result, cv2.COLOR_BGR2RGB))
-    axes[1].set_title(f"Detection result (circles: {circle_count})")  # Set the title with the number of circles
-    axes[1].axis("off")  # Turn off axis lines and labels
+    axes[1].set_title(f"Detection result (circles: {circle_count})")
+    axes[1].axis("off")
 
     plt.tight_layout()  # Adjust the layout to prevent overlap
     plt.show()  # Display the plot
@@ -158,7 +158,7 @@ print(f"The number of circles: {circle_count}")
 # Show the results
 show_result(original, result, circle_count)
 
-# Extract the base filename (without path and extension) from the image path
+# Extract the base filename from the image path
 base_filename = os.path.splitext(os.path.basename(image_path))[0]
 
 # Save the output result image to the Output folder with a new filename
