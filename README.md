@@ -27,7 +27,6 @@
         <li><strong>Input:</strong> Folder containing input thermographic images.</li>
         <li><strong>Output:</strong> Folder to save the processed output images.</li>
     </ul>
-    <hr>
   <h1>Usage</h1>
     <h2>Steps to Run the Script</h2>
     <ol>
@@ -66,4 +65,3 @@
         <li><strong><code>show_result(original, result, circle_count)</code>:</strong> Displays the original and processed images side by side.</li>
         <li><strong><code>save_output(result, filename)</code>:</strong> Saves the processed image with detected circles.</li>
     </ul>
-    <hr>
