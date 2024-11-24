@@ -4,14 +4,12 @@
         It uses image processing techniques such as contour detection and circularity measurement to identify complete circles. 
         The results are visualized and saved for further analysis.
     </p>
-    <hr>
   <h1>Features</h1>
     <ul>
         <li>Detects and quantifies circular objects in thermographic images.</li>
         <li>Displays the original and processed images side by side for easy visualization.</li>
         <li>Saves the output image with detected circles to a specified directory.</li>
     </ul>
-    <hr>
   <h1>Requirements</h1>
     <h2>Dependencies</h2>
     <p>The following Python libraries are required to run the script:</p>
@@ -52,7 +50,6 @@
             The processed image with detected circles is saved in the <code>Output</code> folder with the filename <code>&lt;original_name&gt;-output.png</code>.
         </li>
     </ol>
-    <hr>
   <h1>Functions</h1>
     <ul>
         <li><strong><code>get_image(dir)</code>:</strong> Lists files in the specified directory and allows the user to select one.</li>
