@@ -26,8 +26,8 @@
     </pre>
     <h2>Directory Structure</h2>
     <ul>
-        <li><strong>Input:</strong> Folder containing input thermographic images (create this folder if it doesn’t exist).</li>
-        <li><strong>Output:</strong> Folder to save the processed output images (create this folder if it doesn’t exist).</li>
+        <li><strong>Input:</strong> Folder containing input thermographic images.</li>
+        <li><strong>Output:</strong> Folder to save the processed output images.</li>
     </ul>
     <hr>
   <h1>Usage</h1>
@@ -40,7 +40,7 @@
             </ul>
         </li>
         <li><strong>Run the Script:</strong>
-            <code>python detect_circles.py</code>
+            <code>python main.py</code>
         </li>
         <li><strong>Choose an Image:</strong> 
             The script will list all images in the <code>Input</code> directory. Select an image by entering its corresponding number.
